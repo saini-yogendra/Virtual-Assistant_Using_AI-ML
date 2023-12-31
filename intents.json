@@ -1,0 +1,49 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+
+            "patterns":["hello","hy","hii","wake up","hey","jarvis","are you there"
+
+            ],
+
+            "responses":["Hello","Hello Sir","How Are You Sir",
+            "Always There For You","Here's You Assistant"
+
+            ]
+        },
+        {
+            "tag":"bye",
+
+            "patterns":["by","bye","good bye","goodbye","see you later","sleep","exit"
+
+            ],
+
+            "responses":["Bye","Bye Sir","I Am Gooing",
+            "It'll be Nice To Meet You Again","See You Later"
+
+            ]
+        },
+        {
+            "tag":"id",
+
+            "patterns":["how are you","how you","are you fine?","are you good"
+
+            ],
+
+            "responses":["Fine","Perfect","Cool",
+            "Like You","Are You Fine ? I Am Fine"
+
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Appreciate it"],
+            "responses": ["You're welcome!", "No problem, happy to help!", "Anytime!"]
+        }
+
+
+    ]
+
+
+}
